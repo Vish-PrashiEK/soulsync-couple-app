@@ -1,0 +1,15 @@
+{
+  "name": "soulsync-signaling-server",
+  "version": "1.0.0",
+  "description": "Private Socket.io signaling & real-time chat server for 2-user couple app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  }
+}
+

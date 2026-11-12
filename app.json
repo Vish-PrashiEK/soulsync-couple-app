@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "SoulSync",
+    "slug": "soulsync-couple-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF8FF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.soulsync.exclusivecouple",
+      "infoPlist": {
+        "NSCameraUsageDescription": "SoulSync needs camera access for private video calls with your partner.",
+        "NSMicrophoneUsageDescription": "SoulSync needs microphone access for clear audio during voice and video calls.",
+        "NSPhotoLibraryUsageDescription": "SoulSync needs photo library access so you can add scrapbook memories."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#8A4FFF"
+      },
+      "package": "com.soulsync.exclusivecouple",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "@config-plugins/react-native-webrtc",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SoulSync needs photo library access so you can add scrapbook memories."
+        }
+      ]
+    ]
+  }
+}
+
