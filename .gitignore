@@ -11,4 +11,7 @@ npm-debug.*
 web-build/
 .DS_Store
 server/node_modules/
+android/
+ios/
+
 
