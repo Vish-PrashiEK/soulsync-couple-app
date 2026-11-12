@@ -24,9 +24,8 @@ export const COUPLE_PARTNERS: Record<'partner1' | 'partner2', PartnerProfile> = 
 export const RELATIONSHIP_START_DATE = '2024-01-01'; // YYYY-MM-DD
 export const DEFAULT_COUPLE_PASSCODE = '2024';
 
-// Production backend server URL (Render or Local)
-// Once deployed on Render, replace with: 'https://your-app-name.onrender.com'
-export const DEFAULT_SOCKET_URL = 'https://soulsync-server.onrender.com';
+// Production backend server URL (Hosted on Render)
+export const DEFAULT_SOCKET_URL = 'https://soulsync-server-tawo.onrender.com';
 
 export const STORAGE_KEYS = {
   PASSCODE: '@soulsync_passcode',
